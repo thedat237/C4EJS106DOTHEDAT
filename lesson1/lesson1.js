@@ -7,6 +7,7 @@
 // console.log("Ngày tháng năm sinh:"+years);
 // // console.log(`Họ và tên:${name}. Tuoi:${age}`);
 
-let a=prompt("nhap so:");
-a=String(a);
-console.log(typeof(a));
+// let a=prompt("nhap so:");
+// a=String(a);
+// console.log(typeof(a));
+alert ("Hahaha");
