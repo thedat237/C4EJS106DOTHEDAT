@@ -14,9 +14,16 @@
 // console.log(a,b);
 
 // console.log("EX2")
-// const s="Hello beauty there";
-// const a=s.split(" ",3);
+// let s="Hello beauty there";
+// let a=s.split(" ",3);
 // console.log(a);
+// let s="Đỗ Thế Đạt"
+// let a=s.split(" ")
+// console.log(a)
+
+// let s="Hello"
+// let a=Array(s)
+// console.log(a)
 
 // console.log("Ex3")
 // const a = [4, 5, 7, -8];
@@ -257,7 +264,71 @@
 
 // }
 
+// chữa bài:
+// let dsnycu = prompt("Nhập tên người yêu cũ vào")
+// let ngCanTim = prompt("Nhập tên người muốn tìm")
+// let arr=dsnycu.split(" ")
+// let timthayko=arr.indexOf(ngCanTim)
+// if(timthayko==-1)
+// {
+//     console.log("ảo tưởng")
+// }
+// else
+// {
+//     console.log("hhaha" + ngCanTim)
+// }
 
+// let canNang = prompt("Nhập danh sách cân nặng")
+// let arr=canNang.split(",")
+// let min=parseInt( arr[0])
+// for(let i=1;i<=arr.length;i++)
+// {
+//     if(min>parseInt( arr[i]))
+//     {
+//         min=parseInt( arr[i]);   
+//     }
+// }
+// console.log(min)
+
+// let num=[2,10,3,11,17,22,33]
+// for(let i=0;i<num.length;i++)
+// {
+//     if(num[i]<2)
+//     {
+//         continue
+//     }
+//     let isNguyento =true
+//     for(let j=2;j<num[i];i++)
+//     {
+//         if(num[i]%j==0)
+//         {
+//             isNguyento=false
+//             break
+//         }
+//     }
+//     if(isNguyento)
+//     {
+//        console.log(num[i])
+//     }
+//    else
+//    {
+//        console.log("ko phai số nguyên tố")
+//    } 
+// }
+
+let isNguyento = true      //(kiểm tra 1 số có phải số nguyên tố ko)
+for (let i = 2; i < 8; i++) {
+    if (8 % i == 0) {
+        isNguyento = false
+        break
+    }
+}
+if (isNguyento) {
+    console.log("đây là số nguyên tố")
+}
+else {
+    console.log("ko phai so nguyên tố")
+}
 
  
 
