@@ -41,7 +41,7 @@
 // }
 // alert("Hi there, this is dev dictionary")
 // let answer = prompt("Enter a keyword")
-// for (let x in dictionary) {
+// for (let x in dictionary) {   // if(answer in dictionary)   alert(dictionary[answer])                           
 //     if (answer == x) {
 //         alert(`${x}
 //         ${dictionary[x]}
@@ -51,7 +51,7 @@
 //         let update=prompt(`We could not find your word: ${answer}, leave your explanation`)
 //         alert('Done')
 //         // let answer=prompt("Enter a keyword")
-//         dictionary.answer=update;{
+//         dictionary.answer=update;{            // dictionary[answer]=update
 //         alert(`${answer}
 //         ${update}
 //         `)
