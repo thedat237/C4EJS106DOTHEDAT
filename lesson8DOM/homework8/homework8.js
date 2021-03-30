@@ -115,44 +115,45 @@ let btnAdd=document.getElementById('add_btn')
 let input=document.getElementById('item_input')
 let btnRemove=document.getElementById('btn_remove')
 
-// 12.1:
-console.log(items);
-// 12.3:
-console.log(list);
-// 12.4:
-// li[0].remove()
-// li[0].remove()
-// 12.7:
-function clickAdd(){
-    console.log('Add button clicked');
-}
-btnAdd.addEventListener('click',clickAdd)
-// 12.8:
-function add(){
-    let newItems=input.value
-    console.log(newItems);
-}
-btnAdd.addEventListener('click',add)
-// 12.9:
-function add1(){
-    items.push(input.value)
-    console.log(items);
-}
-btnAdd.addEventListener('click',add1)
-// 12.10:
-function update(){
-    list.insertAdjacentHTML('beforeend','<li>'+input.value+'</li>') 
-}
-btnAdd.addEventListener('click',update)
+// // 12.1:
+// console.log(items);
+// // 12.3:
+// console.log(list);
+// // 12.4:
+// // li[0].remove()
+// // li[0].remove()
+// // 12.7:
+// function clickAdd(){
+//     console.log('Add button clicked');
+// }
+// btnAdd.addEventListener('click',clickAdd)
+// // 12.8:
+// function add(){
+//     let newItems=input.value
+//     console.log(newItems);
+// }
+// btnAdd.addEventListener('click',add)
+// // 12.9:
+// function add1(){
+//     items.push(input.value)
+//     console.log(items);
+// }
+// btnAdd.addEventListener('click',add1)
+// // 12.10:
+// function update(){
+//     list.insertAdjacentHTML('beforeend','<li>'+input.value+'</li>') 
+// }
+// btnAdd.addEventListener('click',update)
 
-// btn.addEventListener('click',function(){
-//     list.innerHTML+='<li>' + input.value +'</li>'
-// })
+// // btn.addEventListener('click',function(){
+// //     list.innerHTML+='<li>' + input.value +'</li>'
+// // })
 
-function clickRemove(){
-    console.log('Remove');
-}
-btnRemove.addEventListener('click',clickRemove)
+// function clickRemove(){
+//     console.log('Remove');
+// }
+// btnRemove.addEventListener('click',clickRemove)
+
 
 
 
